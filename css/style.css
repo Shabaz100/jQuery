@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+body {
+	color: rgb(19, 18, 18);
+	position: relative;
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+html, body{
+	height: 100%;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* shabazbhaiiii */
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: hwb(0 3% 97%);
+}
+.btn-info {
+    color: #fff;
+    background-color: #080808;
+    border-color: #04a9ff;
+}
+.text-center{
+	text-align: center;
+}
+
+input, button, select, textarea {
+    font-family: inherit !important;
+}
+.title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+button.btn{
+    background-color: #3c3c3c;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+/* table{border-collapse:collapse;border-radius:25px;width:880px;} */
+/* shabazbhaiiii */
+table, td, th{border:1px solid #0d0e0d;}
+tr,input{height:30px;border:1px solid #fff;}
+input{text-align:center;}
+input:focus{border:1px solid yellow;} 
+.space{margin-bottom: 2px;}
+.but{
+    width:270px;
+    background:#070707;
+    border:1px solid #00BB64;
+    height:40px;
+    border-radius:3px;
+    color:white;
+    margin-top:10px;
+    margin:0px 0px 0px 290px;
+    font-size: 1rem;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>add remove table rows dynamically using jquery</title>
+	<meta name="keywords" content="add remove table rows jquery">
+	<link rel="stylesheet" href="./css/style.css">	
+</head>
+<body>
+	<h1 class="text-center title">Add Remove Table Rows Dynamically using jQuery</h1>
+	<form id='students' method='post' name='students' action='#'>
+		<div class="table-responsive">
+			<table class="table" border="1" cellspacing="0">
+				<tr>
+					<th><input class='check_all' type='checkbox' onclick="select_all()"/></th>
+					<th>S. No</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Tamil</th>
+					<th>English</th>
+					<th>Computer</th>
+					<th>Total</th>
+				</tr>
+				<tr>
+					<td><input type='checkbox' class='case'/></td>
+					<td><span id='snum'>1.</span></td>
+					<td><input type='text' id='first_name' name='first_name[]'/></td>
+					<td><input type='text' id='last_name' name='last_name[]'/></td>
+					<td><input type='text' id='tamil' name='tamil[]'/></td>
+					<td><input type='text' id='english' name='english[]'/> </td>
+					<td><input type='text' id='computer' name='computer[]'/></td>
+					<td><input type='text' id='total' name='total[]'/> </td>
+				</tr>
+			</table>
+		</div>
+		<button type="button" class='btn btn-info delete'>- Delete</button>
+		<button type="button" class='btn btn-info addmore'>+ Add More</button>
+	<script src='./js/jquery-3.7.1.min.js'></script>
+	<script src="./js/App.js"></script>
+	</body>
+</html>
